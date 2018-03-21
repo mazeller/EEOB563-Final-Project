@@ -30,10 +30,12 @@ Additional research into using maximum likelihood methods for non-genetic trees 
 The implementation of each method will be scored based on how close the tree resembles what is believed to be the ground truth. Although some methods may not work as well, it may be implementation dependent and should not be accepted as the end all result.
 
 <h2>References</h2>
-<small>Gray, R. D., Drummond, A. J., & Greenhill, S. J. (2009). Language phylogenies reveal expansion pulses and pauses in Pacific settlement. science, 323(5913), 479-483.</small>
-
-<small>Bouckaert, R., Lemey, P., Dunn, M., Greenhill, S. J., Alekseyenko, A. V., Drummond, A. J., ... & Atkinson, Q. D. (2012). Mapping the origins and expansion of the Indo-European language family. Science, 337(6097), 957-960.</small>
-
-<small>Le Bomin, S., Lecointre, G., & Heyer, E. (2016). The evolution of musical diversity: the key role of vertical transmission. PloS one, 11(3), e0151570</small>
+<small>
+<ol>
+<li>Gray, R. D., Drummond, A. J., & Greenhill, S. J. (2009). Language phylogenies reveal expansion pulses and pauses in Pacific settlement. science, 323(5913), 479-483.</li>
+<li>Bouckaert, R., Lemey, P., Dunn, M., Greenhill, S. J., Alekseyenko, A. V., Drummond, A. J., ... & Atkinson, Q. D. (2012). Mapping the origins and expansion of the Indo-European language family. Science, 337(6097), 957-960.</li>
+<li>Le Bomin, S., Lecointre, G., & Heyer, E. (2016). The evolution of musical diversity: the key role of vertical transmission. PloS one, 11(3), e0151570</li>
+</ol>
+</small>
 
 
