@@ -38,4 +38,12 @@ The implementation of each method will be scored based on how close the tree res
 </ol>
 </small>
 
+---
+<h1>Results</h1>
+<h2>Data Collection</h2>
+tbd
+<h2>Parsimony Methods</h2>
+The characters of each recipe were defined as discrete and binary. TNT was used to to analyze the characters (see recipes.tnt in the data folder), using the following two string of commands;
 
+<small>tnt p renamedfood.txt, log newfound.out, rep+1, hold 1000, mult=replic 10, le, majority,  taxname=,export - newtree.tre, quit</small>
+<small>tnt p renamedfood.txt, log newfound.out, rep+1, hold 1000, mult=replic 10, le, resample, taxname=,majority,export - newtree2.tre, quit</small>
