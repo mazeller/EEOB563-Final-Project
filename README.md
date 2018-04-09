@@ -47,3 +47,12 @@ The characters of each recipe were defined as discrete and binary. TNT was used 
 
 <small>tnt p renamedfood.txt, log newfound.out, rep+1, hold 1000, mult=replic 10, le, majority,  taxname=,export - newtree.tre, quit</small>
 <small>tnt p renamedfood.txt, log newfound.out, rep+1, hold 1000, mult=replic 10, le, resample, taxname=,majority,export - newtree2.tre, quit</small>
+
+<h2>Distance Methods</h2>
+R script using APE package, implementing NJ methods.
+
+<h2>Maximum Likelihood Methods</h2>
+raxmlHPC-PTHREADS-SSE3 -p 777 -m MULTIGAMMA -s test.phy -n maxlikefood
+
+<h2>Bayesian Methods</h2>
+
