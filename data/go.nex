@@ -1,0 +1,11 @@
+#nexus
+
+begin mrbayes;
+ exe recipe.nex;
+ log start file=output.txt replace;
+ lset applyto=(1) coding=variable; 
+ prset applyto=(1) symdirihyperpr=fixed(infinity) ratepr=variable;
+ mcmc ngen=2000000 samplefreq=1000 printfreq=10000 nchains=1 nruns=1;
+ sump filename=recipes-sum;
+ sumt filename=recipes.con.tre
+end;
