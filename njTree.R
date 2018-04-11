@@ -1,0 +1,6 @@
+library(ape)
+h3data = read.csv("/Users/michael.zeller/Desktop/Lab/eeob563/distances.csv", header=TRUE)
+d<-data.matrix(h3data)
+tr <-nj(d)
+#plot(tr)
+write.tree(tr, "/Users/michael.zeller/Desktop/Lab/eeob563/njtree.tre")
