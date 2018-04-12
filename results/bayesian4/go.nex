@@ -1,0 +1,15 @@
+#nexus
+
+begin mrbayes;
+ exe recipe.nex;
+ log start file=output.txt replace;
+ outgroup 105044_Afr;
+ lset coding=variable; 
+ prset symdirihyperpr=fixed(infinity) ratepr=variable;
+ showmodel;
+ mcmcp ngen=10000000 samplefreq=1000 printfreq=10000 nchains=2 nruns=2;
+ mcmcp diagnfreq=1000 diagnstat=maxstddev;
+ mcmc;
+ sump;
+ sumt;
+end;
