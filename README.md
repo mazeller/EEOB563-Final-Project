@@ -1,4 +1,8 @@
-<h1>Using phylogenetic methods to investigate the relation between non-genetic based entities: Brief and dangerously simplistic overview</h1>
+The datatset used for the project was acquired using a web scraping script for AllRecipes.com, modified by Dr. Jennifer Chang. The repo can be found at <a href="https://github.com/j23414/allrecipes">https://github.com/j23414/allrecipes</a>.
+
+---
+
+<h1>Using phylogenetic methods to investigate the relation between non-genetic based entities: Brief and overly simplistic overview</h1>
 
 <h2>Hypotheses</h2>
 Phylogenetic methods can be used to uncover the evolutionary relation between non-genetic entities that share a common ancestor.
@@ -38,21 +42,4 @@ The implementation of each method will be scored based on how close the tree res
 </ol>
 </small>
 
----
-<h1>Results</h1>
-<h2>Data Collection</h2>
-tbd
-<h2>Parsimony Methods</h2>
-The characters of each recipe were defined as discrete and binary. TNT was used to to analyze the characters (see recipes.tnt in the data folder), using the following two string of commands;
-
-<small>tnt p renamedfood.txt, log newfound.out, rep+1, hold 1000, mult=replic 10, le, majority,  taxname=,export - newtree.tre, quit</small>
-<small>tnt p renamedfood.txt, log newfound.out, rep+1, hold 1000, mult=replic 10, le, resample, taxname=,majority,export - newtree2.tre, quit</small>
-
-<h2>Distance Methods</h2>
-R script using APE package, implementing NJ methods.
-
-<h2>Maximum Likelihood Methods</h2>
-raxmlHPC-PTHREADS-SSE3 -p 777 -m MULTIGAMMA -s test.phy -n maxlikefood
-
-<h2>Bayesian Methods</h2>
 
